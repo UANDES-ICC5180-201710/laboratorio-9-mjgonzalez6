@@ -21,6 +21,10 @@
         <td><%= link_to 'Show', course %></td>
         <td><%= link_to 'Edit', edit_course_path(course) %></td>
         <td><%= link_to 'Destroy', course, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><button onclick="this.style.color='#990000'" type="button" class="btn btn-link">
+          <span  class="glyphicon glyphicon-heart"></span>
+        </button>
+       </td>
       </tr>
     <% end %>
   </tbody>
